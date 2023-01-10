@@ -1,0 +1,92 @@
+.crew {
+    padding-bottom: 0;
+    background-image: url('../../assets/img/crew/background-crew-desktop.jpg');
+}
+
+.crew span {
+    color: #fff4;
+}
+
+.crew h5 {
+    color: #fff;
+}
+
+.crew p {
+    color: #d0d6f9;
+}
+
+.crew_info h5 {
+    margin: 76px 0 64px;
+}
+
+.crew_content {
+    height: 100%;
+    display: flex;
+    gap: 157px;
+}
+
+.crew_img {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    color: #fff;
+}
+
+.crew_img img {
+    width: 445px;
+}
+
+.crew_info {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+}
+
+.crew_dots {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.crew_dots span {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: #fff4;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.crew_dots span:hover {
+    background: #fff9;
+}
+
+.crew_dots span.active {
+    background: #fff;
+}
+
+.crew_navigation {
+    display: flex;
+    gap: 35px;
+}
+
+.crew_info hr {
+    margin-bottom: -20px;
+}
+
+.data {
+    display: flex;
+}
+
+.data > * {
+    width: 50%;
+}
+
+.data p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}

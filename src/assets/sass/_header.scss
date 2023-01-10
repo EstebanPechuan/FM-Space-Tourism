@@ -1,0 +1,25 @@
+header {
+    width: 100%;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+
+    .logo {
+        padding-left: 55px;
+    }
+    
+    .menu {
+        width: 830px;
+        height: 96px;
+        background: #fff1;
+        padding-left: 123px;
+        color: $white;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        backdrop-filter: blur(10px);
+    }
+}

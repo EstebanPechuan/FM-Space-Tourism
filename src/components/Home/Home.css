@@ -1,0 +1,33 @@
+.home {
+  background-image: url("../../assets/img/home/background-home-desktop.jpg");
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.home__info {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.home__info p {
+  line-height: 32px;
+  color: #d0d6f9;
+}
+.home__explore button {
+  width: 274px;
+  height: 274px;
+  border-radius: 50%;
+  background: #ffffff;
+  border: none;
+  font-size: 32px;
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: 0px solid #fff2;
+  transition: 0.4s;
+}
+
+.home__explore button:hover {
+  outline: 80px solid #fff2;
+  letter-spacing: 2px;
+}

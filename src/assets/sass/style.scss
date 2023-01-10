@@ -1,0 +1,59 @@
+@import './variables.scss';
+@import './home.scss';
+@import './header.scss';
+
+$white: #ffffff;
+$light-blue: #d0d6f9;
+$dark-blue: #0b0d17;
+
+$ff-bellefair: 'Bellefair', serif;
+$ff-barlow: 'Barlow Condensed', sans-serif;
+
+@mixin heading($measure) {
+    background: $dark-blue;
+    color: $white;
+    font-size: $measure;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $ff-barlow;
+}
+body {
+    background: $dark-blue;
+    color: $light-blue;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+h1 {
+    @include heading(150px);
+    text-transform: uppercase
+}
+
+h2 {
+    @include heading(100px);
+}
+
+h3 {
+    @include heading(56px);
+}
+
+h4 {
+    @include heading(32px);
+}
+
+h5 {
+    font-family: $ff-barlow;
+    font-size: 28px;
+    color: $light-blue;
+}
